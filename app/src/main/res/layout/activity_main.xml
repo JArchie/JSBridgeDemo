@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/mWebview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/mEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入内容"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/mShowBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#BBB5B5"
+            android:text="显示Web弹窗"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/mShowBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#BBB5B5"
+            android:text="获取Web输入"
+            android:textSize="45sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/mRefreshWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#BBB5B5"
+            android:text="刷新Web页面"
+            android:textSize="45sp" />
+    </LinearLayout>
+
+</LinearLayout>
